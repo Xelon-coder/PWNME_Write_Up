@@ -8,10 +8,6 @@ def init():
 	HOST = "prog.pwnme.fr"
 	PORT = 7001
 
-	print('soc created |', s)
-	remote_ip = socket.gethostbyname(HOST)
-	print('ip of irc server is:', remote_ip)
-
 	s.connect((HOST, PORT))
 
 def parser(buff,level):
